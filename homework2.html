@@ -1,0 +1,96 @@
+<!Doctype html>
+ <html>
+<head>
+    <meta charset="utf-8">
+    <title>Основные операторы, функции</title>
+    <script>
+        var a=1;
+        var b=1;
+        var c;
+        var d;
+        c=++a; //инкремент
+        alert(c);
+        d=b++; //инкремент
+        alert(d);
+        c=(2+ ++a); //инкремент. Увеличит на три шага.
+        alert(c);
+        d=(2+b++); //к двум прибавит в, а потом увеличит на один шаг
+        alert(d);
+        alert(a);
+        alert(b);
+    </script>
+
+    <script>
+        var a=2;
+        var x=1+(a*=2); //сначала выполнится произведение в скобках
+        alert(x);
+    </script>
+
+    <script>
+        var a=10;
+        var b=5;
+        if (a>0<b)  {
+            alert(a-b);
+        }
+        if (a<0>b) {
+            alert(a*b);
+        }
+        if (a<0<b) {
+            alert(a + b);
+        }
+        if (a>0>b) {
+            alert(a+b);
+        }
+    </script>
+
+    <script>
+        var a;
+        switch (a){
+            case a=0:
+                alert(0);
+                break;
+            case a=1:
+                alert(1);
+                break;
+            case a=2:
+                alert(2);
+                break;
+            case a=3:
+                alert(3);
+                break;
+        }
+    </script>
+
+    <script>
+        function sum(x,y) {
+            return x+y;
+        }
+        s=sum(15,20);
+        alert(s);
+    </script>
+
+    <script>
+        function subtraction(x,y) {
+            return x-y;
+        }
+        sub=subtraction(10,5);
+        alert(sub);
+    </script>
+
+    <script>
+        function multiplication(x,y) {
+            return x * y;
+        }
+            mult=multiplication(2,3);
+            alert(mult);
+    </script>
+    
+    <script>
+        function division(x,y) {
+            return x/y;
+        }
+        divis=division(6,2);
+        alert(divis);
+    </script>
+</head>
+</html>
